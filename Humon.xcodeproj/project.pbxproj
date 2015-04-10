@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22AE682C1AD8199E0058BEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE682B1AD8199E0058BEDB /* AppDelegate.swift */; };
+		22AE682F1AD8199E0058BEDB /* Humon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22AE682D1AD8199E0058BEDB /* Humon.xcdatamodeld */; };
+		22AE68311AD8199E0058BEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE68301AD8199E0058BEDB /* ViewController.swift */; };
+		22AE68341AD8199E0058BEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AE68321AD8199E0058BEDB /* Main.storyboard */; };
+		22AE68361AD8199E0058BEDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AE68351AD8199E0058BEDB /* Images.xcassets */; };
+		22AE68391AD8199E0058BEDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AE68371AD8199E0058BEDB /* LaunchScreen.xib */; };
+		22AE68451AD8199E0058BEDB /* HumonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE68441AD8199E0058BEDB /* HumonTests.swift */; };
+		AB59EAD33DA2D60B2045FE25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ED8A15B0E532C2F1FF162C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22AE683F1AD8199E0058BEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22AE681E1AD8199E0058BEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22AE68251AD8199E0058BEDB;
+			remoteInfo = Humon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22AE68261AD8199E0058BEDB /* Humon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE682A1AD8199E0058BEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AE682B1AD8199E0058BEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22AE682E1AD8199E0058BEDB /* Humon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Humon.xcdatamodel; sourceTree = "<group>"; };
+		22AE68301AD8199E0058BEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22AE68331AD8199E0058BEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22AE68351AD8199E0058BEDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22AE68381AD8199E0058BEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		22AE683E1AD8199E0058BEDB /* HumonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AE68431AD8199E0058BEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AE68441AD8199E0058BEDB /* HumonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumonTests.swift; sourceTree = "<group>"; };
+		621A190ADDA6E8C26CC8FFF2 /* Pods.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.beta.xcconfig; path = "Pods/Target Support Files/Pods/Pods.beta.xcconfig"; sourceTree = "<group>"; };
+		79ED8A15B0E532C2F1FF162C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D324C409B5B6418C896D808 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F09A5E87755F2B544D326AD7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22AE68231AD8199E0058BEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59EAD33DA2D60B2045FE25 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE683B1AD8199E0058BEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AE681D1AD8199E0058BEDB = {
+			isa = PBXGroup;
+			children = (
+				22AE68281AD8199E0058BEDB /* Humon */,
+				22AE68411AD8199E0058BEDB /* HumonTests */,
+				22AE68271AD8199E0058BEDB /* Products */,
+				2462461F60BDF9A06B25C78A /* Pods */,
+				CF2F1DB9CAB73BA4E784FE1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22AE68271AD8199E0058BEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22AE68261AD8199E0058BEDB /* Humon.app */,
+				22AE683E1AD8199E0058BEDB /* HumonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AE68281AD8199E0058BEDB /* Humon */ = {
+			isa = PBXGroup;
+			children = (
+				22AE682B1AD8199E0058BEDB /* AppDelegate.swift */,
+				22AE68301AD8199E0058BEDB /* ViewController.swift */,
+				22AE68321AD8199E0058BEDB /* Main.storyboard */,
+				22AE68351AD8199E0058BEDB /* Images.xcassets */,
+				22AE68371AD8199E0058BEDB /* LaunchScreen.xib */,
+				22AE682D1AD8199E0058BEDB /* Humon.xcdatamodeld */,
+				22AE68291AD8199E0058BEDB /* Supporting Files */,
+			);
+			path = Humon;
+			sourceTree = "<group>";
+		};
+		22AE68291AD8199E0058BEDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22AE682A1AD8199E0058BEDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22AE68411AD8199E0058BEDB /* HumonTests */ = {
+			isa = PBXGroup;
+			children = (
+				22AE68441AD8199E0058BEDB /* HumonTests.swift */,
+				22AE68421AD8199E0058BEDB /* Supporting Files */,
+			);
+			path = HumonTests;
+			sourceTree = "<group>";
+		};
+		22AE68421AD8199E0058BEDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22AE68431AD8199E0058BEDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2462461F60BDF9A06B25C78A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F09A5E87755F2B544D326AD7 /* Pods.debug.xcconfig */,
+				7D324C409B5B6418C896D808 /* Pods.release.xcconfig */,
+				621A190ADDA6E8C26CC8FFF2 /* Pods.beta.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF2F1DB9CAB73BA4E784FE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79ED8A15B0E532C2F1FF162C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22AE68251AD8199E0058BEDB /* Humon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE68481AD8199E0058BEDB /* Build configuration list for PBXNativeTarget "Humon" */;
+			buildPhases = (
+				D2A6F4DC86D5BD6C2926E960 /* Check Pods Manifest.lock */,
+				22AE68221AD8199E0058BEDB /* Sources */,
+				22AE68231AD8199E0058BEDB /* Frameworks */,
+				22AE68241AD8199E0058BEDB /* Resources */,
+				B4487444307EE6F4D9C7B45D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Humon;
+			productName = Humon;
+			productReference = 22AE68261AD8199E0058BEDB /* Humon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22AE683D1AD8199E0058BEDB /* HumonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AE684B1AD8199E0058BEDB /* Build configuration list for PBXNativeTarget "HumonTests" */;
+			buildPhases = (
+				22AE683A1AD8199E0058BEDB /* Sources */,
+				22AE683B1AD8199E0058BEDB /* Frameworks */,
+				22AE683C1AD8199E0058BEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22AE68401AD8199E0058BEDB /* PBXTargetDependency */,
+			);
+			name = HumonTests;
+			productName = HumonTests;
+			productReference = 22AE683E1AD8199E0058BEDB /* HumonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22AE681E1AD8199E0058BEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = thoughtbot;
+				TargetAttributes = {
+					22AE68251AD8199E0058BEDB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					22AE683D1AD8199E0058BEDB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 22AE68251AD8199E0058BEDB;
+					};
+				};
+			};
+			buildConfigurationList = 22AE68211AD8199E0058BEDB /* Build configuration list for PBXProject "Humon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22AE681D1AD8199E0058BEDB;
+			productRefGroup = 22AE68271AD8199E0058BEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AE68251AD8199E0058BEDB /* Humon */,
+				22AE683D1AD8199E0058BEDB /* HumonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AE68241AD8199E0058BEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE68341AD8199E0058BEDB /* Main.storyboard in Resources */,
+				22AE68391AD8199E0058BEDB /* LaunchScreen.xib in Resources */,
+				22AE68361AD8199E0058BEDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE683C1AD8199E0058BEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4487444307EE6F4D9C7B45D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A6F4DC86D5BD6C2926E960 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AE68221AD8199E0058BEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE68311AD8199E0058BEDB /* ViewController.swift in Sources */,
+				22AE682C1AD8199E0058BEDB /* AppDelegate.swift in Sources */,
+				22AE682F1AD8199E0058BEDB /* Humon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AE683A1AD8199E0058BEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE68451AD8199E0058BEDB /* HumonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22AE68401AD8199E0058BEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22AE68251AD8199E0058BEDB /* Humon */;
+			targetProxy = 22AE683F1AD8199E0058BEDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22AE68321AD8199E0058BEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AE68331AD8199E0058BEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22AE68371AD8199E0058BEDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AE68381AD8199E0058BEDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22AE68461AD8199E0058BEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22AE68471AD8199E0058BEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22AE68491AD8199E0058BEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09A5E87755F2B544D326AD7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"ROOT_URL='@\"http://localhost:7000/\"'",
+				);
+				INFOPLIST_FILE = Humon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22AE684A1AD8199E0058BEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D324C409B5B6418C896D808 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Humon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22AE684C1AD8199E0058BEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humon.app/Humon";
+			};
+			name = Debug;
+		};
+		22AE684D1AD8199E0058BEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humon.app/Humon";
+			};
+			name = Release;
+		};
+		22AE684E1AD81A830058BEDB /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		22AE684F1AD81A830058BEDB /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621A190ADDA6E8C26CC8FFF2 /* Pods.beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Humon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Beta;
+		};
+		22AE68501AD81A830058BEDB /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humon.app/Humon";
+			};
+			name = Beta;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AE68211AD8199E0058BEDB /* Build configuration list for PBXProject "Humon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE68461AD8199E0058BEDB /* Debug */,
+				22AE68471AD8199E0058BEDB /* Release */,
+				22AE684E1AD81A830058BEDB /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE68481AD8199E0058BEDB /* Build configuration list for PBXNativeTarget "Humon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE68491AD8199E0058BEDB /* Debug */,
+				22AE684A1AD8199E0058BEDB /* Release */,
+				22AE684F1AD81A830058BEDB /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AE684B1AD8199E0058BEDB /* Build configuration list for PBXNativeTarget "HumonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AE684C1AD8199E0058BEDB /* Debug */,
+				22AE684D1AD8199E0058BEDB /* Release */,
+				22AE68501AD81A830058BEDB /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22AE682D1AD8199E0058BEDB /* Humon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22AE682E1AD8199E0058BEDB /* Humon.xcdatamodel */,
+			);
+			currentVersion = 22AE682E1AD8199E0058BEDB /* Humon.xcdatamodel */;
+			path = Humon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22AE681E1AD8199E0058BEDB /* Project object */;
+}
